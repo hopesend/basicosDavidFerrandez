@@ -27,5 +27,13 @@ public class BasicosDavidFerrandez {
         tipoEntero = 666;
         tipoByte = Byte.MAX_VALUE;
         tipoShort = Short.MIN_VALUE;
+            
+        //Llamadas a metodos
+        mostrarInt(tipoEntero);
+    }
+    
+    public static void mostrarInt(int valor)
+    {
+       System.out.println("Valor Int: " + valor);
     }
 }
