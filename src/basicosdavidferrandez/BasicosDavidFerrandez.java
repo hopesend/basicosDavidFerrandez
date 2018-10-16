@@ -27,5 +27,13 @@ public class BasicosDavidFerrandez {
         tipoEntero = 666;
         tipoByte = Byte.MAX_VALUE;
         tipoShort = Short.MIN_VALUE;
+            
+        //Llamadas a metodos
+        mostrarByte(tipoByte);
+    }
+    
+    private static void mostrarByte(byte valor) 
+    {
+        System.out.println("Valor Byte: " + valor);
     }
 }
